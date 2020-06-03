@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .login {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    padding: 5px;
+    input {
+      text-align: center;
+    }
+    .errors {
+      color: red;
+    }
+  }
+}
+
